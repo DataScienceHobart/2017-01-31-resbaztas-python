@@ -47,11 +47,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template.  Use it to create your own website.
-Delete these lines and please fill in 
-<a href="{{site.amy_site}}/submit">this self-organized workshop form</a>
-and the administrator will contact you if we need any extra information.</h4>
-
 <h2 id="general">General Information</h2>
 
 <!--
@@ -194,23 +189,25 @@ and the administrator will contact you if we need any extra information.</h4>
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:00 - 10:30</td>  <td>Unix shell: navigation, files and directories</td> </tr>
+      <tr> <td>10:30 - 11:00</td>  <td>Morning tea</td> </tr>
+      <tr> <td>11:00 - 12:30</td>  <td>Unix shell: pipes, loops, shell scripts, finding things</td> </tr>
+      <tr> <td>12:30 - 01:30</td>  <td>Lunch</td> </tr>
+      <tr> <td>01:30 - 03:00</td>  <td>Python: an introductory data analysis example</td> </tr>
+      <tr> <td>03:00 - 03:30</td>  <td>Afternoon tea</td> </tr>
+      <tr> <td>03:30 - 05:00</td>  <td>Python: loops, lists, conditionals and functions</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:00 - 10:30</td>  <td>Python: testing and defensive programming</td></tr>
+      <tr> <td>10:30 - 11:00</td>  <td>Morning tea</td> </tr>
+      <tr> <td>11:00 - 12:30</td>  <td>Python: command line programs and debugging</td> </tr>
+      <tr> <td>12:30 - 01:30</td>  <td>Lunch</td> </tr>
+      <tr> <td>01:30 - 03:00</td>  <td>Git: Version control</td> </tr>
+      <tr> <td>03:00 - 03:30</td>  <td>Afternoon tea</td> </tr>
+      <tr> <td>03:30 - 05:00</td>  <td>TBA</td> </tr>
     </table>
   </div>
 </div>
@@ -327,20 +324,6 @@ and the administrator will contact you if we need any extra information.</h4>
       <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li>
     </ul>
   </div>
-  <div class="col-md-6">
-    <h3 id="syllabus-sql">Managing Data with SQL</h3>
-    <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="{{site.swc_pages}}/sql-novice-survey/reference/">Reference...</a></li>
-    </ul>
-  </div>
 </div>
 
 <hr/>
@@ -359,15 +342,14 @@ and the administrator will contact you if we need any extra information.</h4>
 
 <h2 id="setup">Setup</h2>
 
-<h2 id="setup">Workshop Setup</h2>
-<h3>Create a GitHub account</h3>
+<h3>1. Create a GitHub account</h3>
 <p>
   <a href="https://github.com/">GitHub</a> is an online hosting service for all your code.
   We'll be using it in the lesson on version control,
-  and GitHub credentials are used for login authentication on DIT4C.
+  and GitHub credentials are used for login authentication on the ResBaz Cloud.
   GitHub accounts are free, so sign up for one if you don't already have an account.
 </p>
-<h3>Login to the ResBaz Cloud</h3>
+<h3>2. Login to the ResBaz Cloud</h3>
 <p>
   During the first session of the workshop, the instructors will give you the
   compute node name and access code you'll need for the ResBaz Cloud environment. 
